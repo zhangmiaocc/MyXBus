@@ -6,4 +6,9 @@ package com.zm.myxbus;
 
 public class SomeEvent {
 
+    int i;
+    
+    public SomeEvent(int i) {
+        this.i = i;
+    }
 }
